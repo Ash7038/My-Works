@@ -1,0 +1,114 @@
+#title {
+  background-color: #c63939;
+  color: white;
+}
+
+#title .container-fluid {
+  padding: 10% 15% 5%;
+}
+
+#title .container-fluid h1 {
+  padding-bottom: 15%;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 60px;
+}
+
+.navbar-brand {
+  padding-left: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.navbar-nav {
+  padding-right: 100px;
+}
+
+#features {
+  background-color: white;
+}
+
+#features .container-fluid {
+  padding: 15% 10% 15%;
+}
+
+.fa-bullseye {
+  color: red;
+}
+
+.fa-bullseye:hover {
+  color: crimson;
+}
+
+.fa-heart {
+  color: red;
+}
+
+.fa-heart:hover {
+  color: crimson;
+}
+
+.fa-check-circle {
+  color: red;
+}
+
+.fa-check-circle:hover {
+  color: crimson;
+}
+
+.card {
+  height: 220px;
+}
+
+#testimonials {
+  background-color: #c63939;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 5% 5% 5%;
+}
+
+#testimonials .profile {
+  border-radius: 100%;
+  padding-bottom: 10px;
+}
+
+#testimonials .carousel-item {
+  text-align: center;
+}
+
+#press .container-fluid{
+  padding: 13% 5% 13%;
+}
+
+#footer {
+  background-color: black;
+  font-family: 'Ubuntu', sans-serif;
+  color: white;
+  text-align: center;
+  padding: 2% 5% 1%;
+}
+
+#cta {
+  padding: 15% 5% 15%;
+
+}
+
+#pricing {
+  background-color: #c63939;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 5% 5% 5%;
+  text-align: center;
+}
+
+#pricing .container-fluid {
+  padding: 5% 8% 5%;
+  display: flex;
+}
+
+#pricing .card-body {
+  color: black;
+}
+
+#pricing .card {
+  border-radius: 3%;
+}

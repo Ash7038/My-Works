@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>sign up</title>
+    <link rel="stylesheet" type="text/css" href="su.css">
+  </head>
+  <body>
+  <h2>login form</h2>
+  <hr>
+
+    <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+  First-Name: <input type="text" placeholder="Enter First Name" name="fname">
+  <br><br>
+  Last-Name: <input type="text" name="lname" placeholder="enter Last Name">
+  <br><br>
+  E-mail: <input type="Email" name="email" placeholder="Enter email">
+  <br><br>
+  Phone-no: <input type="text" pattern="[0-9]{10}" name="phone" placeholder="Phone number" >
+  <br> <hr>
+<input type="submit" name="button" value="Sign In">
+</form>
+  <script type="text/javascript" src="su.js"></script>
+  <hr>
+  </body>
+</html>
